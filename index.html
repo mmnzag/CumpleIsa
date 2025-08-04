@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feliz Cumpleaños 🎉</title>
+
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <div class="screen active" id="screen1">
+    <h1>¡Feliz cumpleaños, <span id="name">[Nombre]</span>!</h1>
+    <p>Hoy celebramos tus 21 años llenos de alegría, risas y chistes muy malos.</p>
+    <button class="btn" onclick="nextScreen()">Siguiente</button>
+  </div>
+
+  <div class="screen" id="screen2">
+    <h1>Gracias por ser tú </h1>
+    <p>Siempre con una sonrisa, con tu energía única y tu corazón gigante.</p>
+    <button class="btn" onclick="nextScreen()">Siguiente</button>
+  </div>
+
+  <div class="screen" id="screen3">
+    <h1>Vamos a celebrar </h1>
+    <p>¡Prepárate para una nueva etapa increíble llena de aventuras!</p>
+    <button class="btn" onclick="nextScreen()">Siguiente</button>
+  </div>
+
+  <div class="screen" id="screen4">
+    <h1>¡Te queremos mucho! </h1>
+    <p> Esta web es solo un pequeño detalle para recordarte lo importante que eres. 
+      <br> Pero además, ¡tenemos un regalillo especial para ti! </p>
+    </p>
+    <button class="btn" onclick="nextScreen()">Abrir regalo</button>
+  </div>
+
+  <div class="screen" id="screen5">
+    <h1> ¡Ta-chaaaan! </h1>
+    <div > 
+      <img src="gift.png" alt="Regalo especial" height="200" />
+      <p>Ábrelo!!</p>
+    </div>
+    <button class="btn" onclick="nextScreen()">Abrir</button>
+  </div>
+
+  <div class="screen" id="screen6">
+    <h1> ¡Sorpresa! </h1>
+    <br>
+    <img src="golden.jpeg" alt="Regalo especial" height="300" />  
+    <p>¡Esperamos que sea de su agrado!</p>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
